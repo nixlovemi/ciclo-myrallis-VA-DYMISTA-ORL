@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VA DYMISTA ORL 2</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style></style>
+    </head>
+    <body>
+        <div class="navbar" style="display: none;">
+            <a href="01_slide.html" class="left-square square a-move-left">
+                &larr;
+            </a>
+            <a href="03_slide.html" class="right-square square a-move-right">
+                &rarr;
+            </a>
+        </div>
+
+        <!-- Page 2 -->
+        <div
+            class="main page"
+            style="background-image:url(img/2-min.jpg);"
+            id="dv-2"
+        >
+            <div class="button-popup-2" data-toggle="modal" data-target="#modal-2"></div>
+
+            <a href="01_slide.html" id="menu-home"></a>
+            <a href="02_slide.html" id="menu-produto"></a>
+            <a href="javascript:;" id="menu-bula" data-toggle="modal" data-target="#modal-bula"></a>
+        </div>
+
+        <!-- Page 2 Modal 1 -->
+        <div id="modal-2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-body">
+                        <img class="img-fluid" src="img/2-popup-1.jpg" />
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Bula -->
+        <div id="modal-bula" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-body">
+                        <img class="img-fluid" src="img/0-bula.jpg" />
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,203 @@
+html, body, .main {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.main {
+    overflow: hidden;
+    background-size: 100% 100%;
+}
+
+.main img {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.rounded-modal .modal-body img,
+.rounded-modal .modal-content  {
+    border-radius: 25px !important; 
+}
+.rounded-modal .modal-footer {
+    display: none;
+}
+.rounded-modal .close-button {
+    position: relative;
+    left: 98%;
+    top: -10px;
+}
+.close-button {
+    border-radius: 50%;
+    padding: 0.5em;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #03646c;
+    background-color: #03646c;
+    color: #FFF;
+    position: relative;
+}
+.close-button:hover {
+    border: 2px solid #03646c;
+    background-color: #107b84;
+    color: #ffffff;
+}
+.close-button::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: #FFF;
+    width: 2px;
+    left: 12px;
+    top: 5px;
+    bottom: 5px;
+    transform: rotate(45deg);
+}
+.close-button::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: #FFF;
+    height: 2px;
+    top:12px;
+    left: 5px;
+    right: 5px;
+    transform: rotate(45deg);
+}
+
+.button-popup-1 {
+    width: 23%;
+    height: 13%;
+    /* background-color: green; */
+    position: relative;
+    left: 0vw;
+    top: 67vh;
+    cursor: pointer;
+}
+
+.button-popup-11 {
+    width: 8%;
+    height: 9%;
+    position: absolute;
+    left: 28%;
+    top: 65%;
+    cursor: pointer;
+}
+
+.button-popup-12 {
+    width: 8%;
+    height: 9%;
+    position: absolute;
+    left: 66%;
+    top: 65%;
+    cursor: pointer;
+}
+
+.button-popup-13 {
+    width: 11%;
+    height: 11%;
+    position: absolute;
+    left: 51%;
+    top: 83%;
+    cursor: pointer;
+}
+
+.button-popup-2 {
+    width: 7%;
+    height: 10%;
+    position: relative;
+    left: 89vw;
+    top: 25vh;
+    cursor: pointer;
+}
+
+a#menu-home {
+    width: 33%;
+    height: 11%;
+    position: relative;
+    left: 0vw;
+    top: 76vh;
+    cursor: pointer;
+    display: inline-block;
+}
+
+a#menu-produto {
+    width: 33%;
+    height: 11%;
+    position: relative;
+    left: 0vw;
+    top: 76vh;
+    cursor: pointer;
+    display: inline-block;
+}
+
+a#menu-bula {
+    width: 32%;
+    height: 11%;
+    position: relative;
+    left: 1vw;
+    top: 76vh;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #33333311;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1px;
+}
+
+.square {
+    padding: 5px 10px;
+    background-color: #7666fe; /* Cor da div quadrada */
+}
+
+.left-square {
+    float: left; /* Coloca a div quadrada à esquerda */
+}
+
+.right-square {
+    float: right; /* Coloca a div quadrada à direita */
+}
+
+@media (max-width: 575px) {
+    /*
+    #modal-1 .btn-fechar {
+        width: 12%;
+        left: 77.5%;
+        top: 9%;
+    }
+    */
+
+    .rounded-modal .close-button {
+        left: 95%;
+    }
+}
+
+@media (max-width: 520px) {
+    /*
+    #modal-1 .btn-fechar {
+        left: 85%;
+        top: 9%;
+    }
+    */
+}
+  
